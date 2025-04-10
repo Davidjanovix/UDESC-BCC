@@ -50,4 +50,15 @@ public class ListaTelefonica {
     public List<Contato> buscarContatos(char inicial) {
         return contatos.get(Character.toUpperCase(inicial));
     }
+
+    public Contato getContato(String nome) {
+        for (Map.Entry<Character, List<Contato>> entry : contatos.entrySet()) {
+            for (Contato contato : entry.getValue()) {
+                if (contato.getNome().equalsIgnoreCase(nome)) {
+                    return contato;
+                }
+            }
+        }
+        return null; // Retorna null se o contato não for encontrado
+    }
 }

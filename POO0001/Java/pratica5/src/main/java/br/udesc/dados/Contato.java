@@ -2,10 +2,10 @@ package br.udesc.dados;
 
 public class Contato {
     private String nome;
-    private int telefone;
+    private String telefone;
 
 
-    public Contato(String nome, int telefone) {
+    public Contato(String nome, String telefone) {
         this.nome = nome;
         this.telefone = telefone;
     }
@@ -17,7 +17,7 @@ public class Contato {
         return nome;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
@@ -28,7 +28,7 @@ public class Contato {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setTelefone(int telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
     public boolean equals(Object obj) {
