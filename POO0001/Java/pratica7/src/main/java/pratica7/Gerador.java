@@ -26,14 +26,15 @@ public abstract class Gerador implements ISequencia{
     public double mediaGeometrica() {
         double produtorio = 1.0;
         for(Integer i : sequencia) {
-            produtorio *= i;
+            produtorio *= (double) i;
         }
         return Math.pow(produtorio, 1.0 / (double) sequencia.size());
     }
     public double variancia() {
         double somatorio = 0;
+        double media = mediaAritmetica();
         for(Integer i : sequencia) {
-            somatorio += Math.pow(i - mediaAritmetica(), 2);
+            somatorio += Math.pow(i - media, 2);
         }
         return somatorio / (double) (sequencia.size() - 1);
     }
