@@ -35,10 +35,10 @@ public abstract class Gerador implements ISequencia{
         for(Integer i : sequencia) {
             somatorio += Math.pow(i - mediaAritmetica(), 2);
         }
-        return Math.pow(somatorio / (sequencia.size() - 1), 2);
+        return somatorio / (double) (sequencia.size() - 1);
     }
     public double desvioPadrao() {
-        return Math.pow(variancia(), 1/2);
+        return Math.sqrt(variancia());
     }
     public long amplitude() {
         int maior = sequencia.get(0), menor = sequencia.get(0);
