@@ -1,0 +1,123 @@
+[
+    {
+      "titulo": "A Rainy Day in New York",
+      "ano": 2019,
+      "classificacao": "PG-13",
+      "nota": 6.6
+    },
+    {
+      "titulo": "Jurassic World: Fallen Kingdom",
+      "ano": 2018,
+      "classificacao": "PG-13",
+      "nota": 6.2
+    },
+    {
+      "titulo": "2001: A Space Odyssey",
+      "ano": 1968,
+      "classificacao": "G",
+      "nota": 8.3
+    },
+    {
+        "titulo": "Fight Club",
+        "ano": 1999,
+        "classificacao": "R",
+        "nota": 8.8
+    },
+    {
+      "titulo": "The Shawshank Redemption",
+      "ano": 1994,
+      "classificacao": "R",
+      "nota": 9.3
+    },
+    {
+      "titulo": "The Godfather",
+      "ano": 1972,
+      "classificacao": "R",
+      "nota": 9.2
+    },
+    {
+        "titulo": "Gladiator",
+        "ano": 2000,
+        "classificacao": "R",
+        "nota": 8.5
+    },
+    {
+      "titulo": "The Dark Knight",
+      "ano": 2008,
+      "classificacao": "PG-13",
+      "nota": 9.0
+    },
+    {
+      "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+      "ano": 2001,
+      "classificacao": "PG-13",
+      "nota": 8.8
+    },
+    {
+      "titulo": "Pulp Fiction",
+      "ano": 1994,
+      "classificacao": "R",
+      "nota": 8.9
+    },
+    {
+      "titulo": "Forrest Gump",
+      "ano": 1994,
+      "classificacao": "PG-13",
+      "nota": 8.8
+    },
+    {
+      "titulo": "Inception",
+      "ano": 2010,
+      "classificacao": "PG-13",
+      "nota": 8.8
+    },
+    {
+      "titulo": "Interstellar",
+      "ano": 2014,
+      "classificacao": "PG-13",
+      "nota": 8.6
+    },
+    {
+      "titulo": "The Matrix",
+      "ano": 1999,
+      "classificacao": "R",
+      "nota": 8.7
+    },
+    {
+      "titulo": "Goodfellas",
+      "ano": 1990,
+      "classificacao": "R",
+      "nota": 8.7
+    },
+    {
+      "titulo": "The Lord of the Rings: The Return of the King",
+      "ano": 2003,
+      "classificacao": "PG-13",
+      "nota": 9.0
+    },
+    {
+      "titulo": "The Lord of the Rings: The Two Towers",
+      "ano": 2002,
+      "classificacao": "PG-13",
+      "nota": 8.8
+    },
+    {
+      "titulo": "The Silence of the Lambs",
+      "ano": 1991,
+      "classificacao": "R",
+      "nota": 8.6
+    },
+    {
+      "titulo": "Saving Private Ryan",
+      "ano": 1998,
+      "classificacao": "R",
+      "nota": 8.6
+    },
+    {
+      "titulo": "Se7en",
+      "ano": 1995,
+      "classificacao": "R",
+      "nota": 8.6
+    }
+  ]
+  
