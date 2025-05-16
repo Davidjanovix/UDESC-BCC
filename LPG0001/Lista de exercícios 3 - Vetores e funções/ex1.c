@@ -1,37 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 int compara(float a[], float b[], int n);
 
 int main() {
-    int n;
-    srand(time(NULL));
+    float a[5] = {1.0, 2.0, 3.0, 4.0, 5.0};
+    float b[5] = {1.0, 2.0, 3.0, 4.0, 5.0};
+    float c[5] = {1.0, 2.0, 3.0, 4.0, 6.0};
 
-    printf("Digite o numero de elementos do vetor: ");
-    scanf("%d", &n);
-    float a[n], b[n];
-
-    for (int i = 0; i < n; i++) {
-        a[i] = (float)(rand() % 1000) / 100.0; //Gera números entre 0 e 9.99 com 2 casas decimais.
-        b[i] = a[i];
-    }
-
-    if(compara(a, b, n)) {
-        printf("Os vetores sao iguais\n");
-    } else {
-        printf("Os vetores sao diferentes\n");
-    }
+    printf("O vetor a e %s vetor b\n", compara(a, b, 5) ? "igual a" : "diferente do");
+    printf("O vetor a e %s vetor c\n", compara(a, c, 5) ? "igual a" : "diferente do");
 
     return 0;
 }
 
 int compara(float a[], float b[], int n) {
-    int i;
-    for (i = 0 ; i < n ; i++) {
-        if (a[i] != b[i]) {
+    
+    for (int i = 0; i < n; i++)
+        if (a[i] != b[i])
             return 0;
-        }
-    }
+
     return 1;
 }
